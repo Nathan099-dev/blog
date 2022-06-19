@@ -56,41 +56,6 @@ nav{
     color:yellow;
 }
 
-nav i{
-    float: right;
-    margin-top: 12px;
-    opacity: 0;
-    visibility: hidden;
-    color: white;
-}
-
-
-.menu-mobile{
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 100%;
-   text-align: center;
-   padding: .3rem;
-   display: none;
-   
-}
-
-.menu-mobile a{
-    text-decoration: none;
-    color: white;
-    display:block;
-    justify-content: center;
-    
-}
-
-.menu-mobile.show{
-  display: block;
-}
-
-.menu-mobile.hide{
-    display: none;
-}
 
 section.main{
     background-color: #ccc;
